@@ -150,7 +150,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 1: Prepare Workspace
 
-![PCB Overview](assembly-images/01-pcb-assembly/01-pcb-overview.png)
+![PCB Overview](images/01-pcb-assembly/01-pcb-overview.png)
 
 1. Put on anti-static wrist strap and connect to ground
 2. Place PCB on anti-static mat
@@ -161,13 +161,13 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 2: Install Passive Components (Resistors and Capacitors)
 
-![Component Placement Map](assembly-images/01-pcb-assembly/02-component-placement-map.png)
+![Component Placement Map](images/01-pcb-assembly/02-component-placement-map.png)
 
 **Order of Installation**: Start with smallest components and work up to larger ones. Follow the color-coded installation sequence shown in the component placement map above.
 
 #### 2.1 Install Resistors (R1-R5)
 
-![Resistor Installation](assembly-images/01-pcb-assembly/03-resistor-installation.png)
+![Resistor Installation](images/01-pcb-assembly/03-resistor-installation.png)
 
 1. **R1 (10kΩ)**:
    - Locate R1 position on PCB (check silkscreen)
@@ -197,7 +197,7 @@ Before beginning assembly, verify you have all required components:
 
 #### 2.2 Install Capacitors (C1-C7)
 
-![Capacitor Installation](assembly-images/01-pcb-assembly/04-capacitor-installation.png)
+![Capacitor Installation](images/01-pcb-assembly/04-capacitor-installation.png)
 
 1. **C1, C2 (10µF)**:
    - Locate C1 and C2 positions
@@ -219,7 +219,7 @@ Before beginning assembly, verify you have all required components:
 
 #### 3.1 Install Voltage Regulator (U4 - ADP150)
 
-![Voltage Regulator Installation](assembly-images/01-pcb-assembly/05-voltage-regulator-installation.png)
+![Voltage Regulator Installation](images/01-pcb-assembly/05-voltage-regulator-installation.png)
 
 1. **Identify Pin 1**:
    - Locate pin 1 indicator on IC (usually a dot or notch)
@@ -243,7 +243,7 @@ Before beginning assembly, verify you have all required components:
 
 #### 3.2 Install Battery Charge Controller (U3 - MCP73832)
 
-![Charge Controller Installation](assembly-images/01-pcb-assembly/06-charge-controller-installation.png)
+![Charge Controller Installation](images/01-pcb-assembly/06-charge-controller-installation.png)
 
 1. Follow same process as U4
 2. **Critical**: Ensure correct orientation (pin 1 to pin 1)
@@ -270,7 +270,7 @@ Before beginning assembly, verify you have all required components:
 
 ⚠️ **CRITICAL STEP**: This is the most important component. Take extra care.
 
-![Microcontroller Overview](assembly-images/01-pcb-assembly/07-microcontroller-overview.png)
+![Microcontroller Overview](images/01-pcb-assembly/07-microcontroller-overview.png)
 
 1. **Preparation**:
    - Verify microcontroller part number matches BOM
@@ -281,7 +281,7 @@ Before beginning assembly, verify you have all required components:
    - Locate pin 1 indicator on IC (usually a dot in corner)
    - Match with pin 1 indicator on PCB (usually a square pad or dot)
 
-![Pin 1 Alignment](assembly-images/01-pcb-assembly/08-microcontroller-pin1-alignment.png)
+![Pin 1 Alignment](images/01-pcb-assembly/08-microcontroller-pin1-alignment.png)
 
 3. **Placement**:
    - For QFN-48 package, alignment is critical
@@ -303,7 +303,7 @@ Before beginning assembly, verify you have all required components:
      - Use solder wick to remove excess and bridges
      - Check each pin for proper connection
 
-![Soldering Methods](assembly-images/01-pcb-assembly/09-microcontroller-soldering-methods.png)
+![Soldering Methods](images/01-pcb-assembly/09-microcontroller-soldering-methods.png)
 
 5. **Verification**:
    - Inspect all pins under magnification
@@ -311,11 +311,11 @@ Before beginning assembly, verify you have all required components:
    - Verify no cold solder joints
    - Test continuity between adjacent pins (should be open circuit)
 
-![Microcontroller Verification](assembly-images/01-pcb-assembly/10-microcontroller-verification.png)
+![Microcontroller Verification](images/01-pcb-assembly/10-microcontroller-verification.png)
 
 ### Step 5: Install Air Quality Sensor (U2 - SGP40)
 
-![Sensor Installation](assembly-images/01-pcb-assembly/11-sensor-installation.png)
+![Sensor Installation](images/01-pcb-assembly/11-sensor-installation.png)
 
 1. **Sensor Orientation**:
    - SGP40 has air sampling vents on top
@@ -343,7 +343,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 6: Install RGB LEDs (LED1-LED4)
 
-![LED Installation Overview](assembly-images/01-pcb-assembly/12-led-installation-overview.png)
+![LED Installation Overview](images/01-pcb-assembly/12-led-installation-overview.png)
 
 1. **LED Identification**:
    - EAST1616RGBA1 LEDs have 4 pins (R, G, B, Common Anode)
@@ -356,7 +356,7 @@ Before beginning assembly, verify you have all required components:
    - Solder all 4 pins
    - **IMPORTANT**: LEDs are directional - incorrect orientation will prevent operation
 
-![LED Installation Detail](assembly-images/01-pcb-assembly/13-led-installation-detail.png)
+![LED Installation Detail](images/01-pcb-assembly/13-led-installation-detail.png)
 
 3. **LED Placement**:
    - LEDs should be positioned to maximize visibility through enclosure
@@ -370,7 +370,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 7: Install Piezoelectric Buzzer (BZ1)
 
-![Buzzer Installation](assembly-images/01-pcb-assembly/14-buzzer-installation.png)
+![Buzzer Installation](images/01-pcb-assembly/14-buzzer-installation.png)
 
 1. **Buzzer Orientation**:
    - Piezoelectric buzzers are polarized
@@ -408,7 +408,7 @@ Before beginning assembly, verify you have all required components:
 
 #### 9.1 USB Type-C Connector (J1)
 
-![USB-C Connector Installation](assembly-images/01-pcb-assembly/15-usbc-connector-installation.png)
+![USB-C Connector Installation](images/01-pcb-assembly/15-usbc-connector-installation.png)
 
 1. **Connector Orientation**:
    - USB-C connectors have specific mounting orientation
@@ -427,7 +427,7 @@ Before beginning assembly, verify you have all required components:
 
 #### 9.2 Battery Connector (J2)
 
-![Battery Connector Installation](assembly-images/01-pcb-assembly/16-battery-connector-installation.png)
+![Battery Connector Installation](images/01-pcb-assembly/16-battery-connector-installation.png)
 
 1. **Connector Type**:
    - JST PH 2-pin connector
@@ -443,7 +443,7 @@ Before beginning assembly, verify you have all required components:
 
 #### 9.3 SWD Programming Header (P1)
 
-![Programming Header Installation](assembly-images/01-pcb-assembly/17-programming-header-installation.png)
+![Programming Header Installation](images/01-pcb-assembly/17-programming-header-installation.png)
 
 1. **Header Installation**:
    - 4-pin header for ST-Link programming
@@ -461,9 +461,9 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 10: PCB Assembly Verification
 
-![Complete PCB Top View](assembly-images/01-pcb-assembly/18-complete-pcb-top-view.png)
+![Complete PCB Top View](images/01-pcb-assembly/18-complete-pcb-top-view.png)
 
-![Complete PCB Bottom View](assembly-images/01-pcb-assembly/19-complete-pcb-bottom-view.png)
+![Complete PCB Bottom View](images/01-pcb-assembly/19-complete-pcb-bottom-view.png)
 
 1. **Visual Inspection**:
    - Check all components are installed
@@ -484,7 +484,7 @@ Before beginning assembly, verify you have all required components:
    - Confirm LEDs are correctly placed
    - Verify sensor is properly mounted
 
-![PCB Verification Checklist](assembly-images/01-pcb-assembly/20-pcb-verification-checklist.png)
+![PCB Verification Checklist](images/01-pcb-assembly/20-pcb-verification-checklist.png)
 
 ---
 
@@ -494,7 +494,7 @@ Before beginning assembly, verify you have all required components:
 
 ⚠️ **BATTERY SAFETY**: Handle battery with care. Never short-circuit terminals.
 
-![Battery Mounting](assembly-images/02-component-installation/22-battery-mounting.png)
+![Battery Mounting](images/02-component-installation/22-battery-mounting.png)
 
 1. **Battery Preparation**:
    - Verify battery specifications match BOM (3.7V, 200mAh minimum)
@@ -513,7 +513,7 @@ Before beginning assembly, verify you have all required components:
    - Red wire = Positive (+)
    - Black wire = Negative (-)
 
-![Battery Connection Detail](assembly-images/02-component-installation/23-battery-connection-detail.png)
+![Battery Connection Detail](images/02-component-installation/23-battery-connection-detail.png)
 
 **Verification**: 
 - Battery fits securely in enclosure
@@ -526,7 +526,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 12: Prepare Enclosure Parts
 
-![Enclosure Parts Overview](assembly-images/03-enclosure-assembly/31-enclosure-parts-overview.png)
+![Enclosure Parts Overview](images/03-enclosure-assembly/31-enclosure-parts-overview.png)
 
 1. **Inspect 3D Printed Parts**:
    - Check top and bottom halves for defects
@@ -535,7 +535,7 @@ Before beginning assembly, verify you have all required components:
    - Ensure sensor air vent openings are present
    - Lightly sand any rough surfaces
 
-![Enclosure Preparation](assembly-images/03-enclosure-assembly/32-enclosure-preparation.png)
+![Enclosure Preparation](images/03-enclosure-assembly/32-enclosure-preparation.png)
 
 2. **Test Fit PCB**:
    - Place PCB in bottom enclosure
@@ -546,7 +546,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 13: Install PCB into Enclosure
 
-![PCB Placement](assembly-images/03-enclosure-assembly/33-pcb-placement.png)
+![PCB Placement](images/03-enclosure-assembly/33-pcb-placement.png)
 
 1. **Place PCB**:
    - Position PCB in bottom enclosure half
@@ -558,14 +558,14 @@ Before beginning assembly, verify you have all required components:
    - Place M1.6 spacers on mounting posts
    - Spacers provide clearance between PCB and enclosure
 
-![Spacer Installation](assembly-images/03-enclosure-assembly/34-spacer-installation.png)
+![Spacer Installation](images/03-enclosure-assembly/34-spacer-installation.png)
 
 3. **Secure PCB**:
    - Use M1.6x4 screws to secure PCB
    - Tighten screws gently - do not overtighten
    - Verify PCB is secure but not stressed
 
-![PCB Securing](assembly-images/03-enclosure-assembly/35-pcb-securing.png)
+![PCB Securing](images/03-enclosure-assembly/35-pcb-securing.png)
 
 **Verification**: 
 - PCB is securely mounted
@@ -576,7 +576,7 @@ Before beginning assembly, verify you have all required components:
 
 ⚠️ **FINAL CHECK BEFORE CONNECTING**:
 
-![Pre-Connection Verification](assembly-images/03-enclosure-assembly/36-pre-connection-verification.png)
+![Pre-Connection Verification](images/03-enclosure-assembly/36-pre-connection-verification.png)
 - [ ] All components verified
 - [ ] No short circuits detected
 - [ ] Battery polarity confirmed
@@ -588,7 +588,7 @@ Before beginning assembly, verify you have all required components:
    - Gently push connectors together
    - Listen for click indicating secure connection
 
-![Battery Connection Final](assembly-images/03-enclosure-assembly/37-battery-connection-final.png)
+![Battery Connection Final](images/03-enclosure-assembly/37-battery-connection-final.png)
 
 2. **Initial Power Test**:
    - Device should power on (if firmware is loaded)
@@ -611,14 +611,14 @@ Before beginning assembly, verify you have all required components:
    - Align mounting holes
    - Verify proper fit
 
-![Enclosure Closure Alignment](assembly-images/03-enclosure-assembly/38-enclosure-closure-alignment.png)
+![Enclosure Closure Alignment](images/03-enclosure-assembly/38-enclosure-closure-alignment.png)
 
 3. **Secure Enclosure**:
    - Use remaining M1.6x4 screws
    - Tighten evenly in cross pattern
    - Do not overtighten - may crack 3D printed parts
 
-![Enclosure Closure Securing](assembly-images/03-enclosure-assembly/39-enclosure-closure-securing.png)
+![Enclosure Closure Securing](images/03-enclosure-assembly/39-enclosure-closure-securing.png)
 
 4. **Final Check**:
    - Verify enclosure is secure
@@ -627,7 +627,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 16: Attach Necklace Chain
 
-![Chain Attachment](assembly-images/03-enclosure-assembly/310-chain-attachment.png)
+![Chain Attachment](images/03-enclosure-assembly/310-chain-attachment.png)
 
 1. **Chain Attachment**:
    - Thread chain through attachment point on pendant
@@ -639,7 +639,7 @@ Before beginning assembly, verify you have all required components:
    - Check chain does not interfere with USB-C port
    - Ensure device is comfortable to wear
 
-![Complete Assembly External View](assembly-images/03-enclosure-assembly/311-complete-assembly-external.png)
+![Complete Assembly External View](images/03-enclosure-assembly/311-complete-assembly-external.png)
 
 ---
 
@@ -647,7 +647,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 17: Power-On Test
 
-![Power-On Test Setup](assembly-images/04-testing/circular-original/41-power-on-test-setup.png)
+![Power-On Test Setup](images/04-testing/circular-original/41-power-on-test-setup.png)
 
 1. **Initial Power Test**:
    - Connect USB-C cable to charger
@@ -664,7 +664,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 18: Firmware Upload
 
-![ST-Link Connection](assembly-images/04-testing/circular-original/42-stlink-connection.png)
+![ST-Link Connection](images/04-testing/circular-original/42-stlink-connection.png)
 
 1. **Connect ST-Link**:
    - Connect ST-Link V2 to SWD header (P1)
@@ -681,7 +681,7 @@ Before beginning assembly, verify you have all required components:
    - Upload firmware
    - Verify successful upload
 
-![Firmware Upload](assembly-images/04-testing/circular-original/43-firmware-upload.png)
+![Firmware Upload](images/04-testing/circular-original/43-firmware-upload.png)
 
 3. **Disconnect ST-Link**:
    - Safely disconnect programming cable
@@ -696,35 +696,35 @@ Before beginning assembly, verify you have all required components:
    - Red = Poor air (TVOC 301-500)
    - Test by exposing sensor to different air conditions
 
-![LED Color Test](assembly-images/04-testing/circular-original/44-led-color-test.png)
+![LED Color Test](images/04-testing/circular-original/44-led-color-test.png)
 
 2. **Sensor Test**:
    - Wave hand near sensor (should detect changes)
    - Test in different environments (indoor, outdoor)
    - Verify sensor responds to air quality changes
 
-![Sensor Response Test](assembly-images/04-testing/circular-original/45-sensor-response-test.png)
+![Sensor Response Test](images/04-testing/circular-original/45-sensor-response-test.png)
 
 3. **Audio Test**:
    - Verify buzzer sounds for alerts
    - Test different alert tones
    - Check volume is appropriate
 
-![Audio Test](assembly-images/04-testing/circular-original/46-audio-test.png)
+![Audio Test](images/04-testing/circular-original/46-audio-test.png)
 
 4. **Battery Test**:
    - Charge battery fully
    - Monitor battery life over time
    - Verify 16+ hour operation
 
-![Battery Life Test](assembly-images/04-testing/circular-original/47-battery-life-test.png)
+![Battery Life Test](images/04-testing/circular-original/47-battery-life-test.png)
 
 5. **Charging Test**:
    - Connect USB-C charger
    - Verify charging indicator
    - Test charging completes successfully
 
-![Charging Test](assembly-images/04-testing/circular-original/48-charging-test.png)
+![Charging Test](images/04-testing/circular-original/48-charging-test.png)
 
 ### Step 20: Calibration (if required)
 
@@ -747,7 +747,7 @@ Before beginning assembly, verify you have all required components:
 
 **Symptoms**: No LEDs, no response when USB connected
 
-![Short Circuit Detection](assembly-images/05-troubleshooting/circular-original/51-short-circuit-detection.png)
+![Short Circuit Detection](images/05-troubleshooting/circular-original/51-short-circuit-detection.png)
 
 **Possible Causes**:
 - Battery not connected or incorrectly connected
@@ -764,7 +764,7 @@ Before beginning assembly, verify you have all required components:
 
 **Symptoms**: Device powers on but LEDs remain off
 
-![LED Not Working](assembly-images/05-troubleshooting/circular-original/58-led-not-working.png)
+![LED Not Working](images/05-troubleshooting/circular-original/58-led-not-working.png)
 
 **Possible Causes**:
 - LEDs installed with incorrect polarity
@@ -777,13 +777,13 @@ Before beginning assembly, verify you have all required components:
 3. Test LEDs individually with multimeter
 4. Verify firmware is correctly uploaded
 
-![Orientation Errors](assembly-images/05-troubleshooting/circular-original/52-orientation-errors.png)
+![Orientation Errors](images/05-troubleshooting/circular-original/52-orientation-errors.png)
 
 #### Issue 3: Sensor Not Responding
 
 **Symptoms**: LEDs show same color regardless of air quality
 
-![Sensor Vent Blockage](assembly-images/05-troubleshooting/circular-original/55-sensor-vent-blockage.png)
+![Sensor Vent Blockage](images/05-troubleshooting/circular-original/55-sensor-vent-blockage.png)
 
 **Possible Causes**:
 - Sensor not properly connected
@@ -800,7 +800,7 @@ Before beginning assembly, verify you have all required components:
 
 **Symptoms**: Device works but battery does not charge via USB
 
-![USB-C Connection Issues](assembly-images/05-troubleshooting/circular-original/56-usbc-connection-issues.png)
+![USB-C Connection Issues](images/05-troubleshooting/circular-original/56-usbc-connection-issues.png)
 
 **Possible Causes**:
 - USB-C connector not properly installed
@@ -813,7 +813,7 @@ Before beginning assembly, verify you have all required components:
 3. Test USB-C connection with multimeter
 4. Verify battery protection circuit is functioning
 
-![Battery Connection Problems](assembly-images/05-troubleshooting/circular-original/57-battery-connection-problems.png)
+![Battery Connection Problems](images/05-troubleshooting/circular-original/57-battery-connection-problems.png)
 
 #### Issue 5: Device Overheats
 

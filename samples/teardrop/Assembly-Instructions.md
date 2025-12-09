@@ -155,7 +155,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 1: Prepare Workspace
 
-![PCB Overview](assembly-images/01-pcb-assembly/01-pcb-overview.png)
+![PCB Overview](images/01-pcb-assembly/01-pcb-overview.png)
 
 1. Put on anti-static wrist strap and connect to ground
 2. Place PCB on anti-static mat
@@ -166,13 +166,13 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 2: Install Passive Components (Resistors and Capacitors)
 
-![Component Placement Map](assembly-images/01-pcb-assembly/02-component-placement-map.png)
+![Component Placement Map](images/01-pcb-assembly/02-component-placement-map.png)
 
 **Order of Installation**: Start with smallest components and work up to larger ones. Follow the color-coded installation sequence shown in the component placement map above.
 
 #### 2.1 Install Resistors (R1-R5)
 
-![Resistor Installation](assembly-images/01-pcb-assembly/03-resistor-installation.png)
+![Resistor Installation](images/01-pcb-assembly/03-resistor-installation.png)
 
 1. **R1 (10kΩ)**:
    - Locate R1 position on PCB (check silkscreen)
@@ -202,7 +202,7 @@ Before beginning assembly, verify you have all required components:
 
 #### 2.2 Install Capacitors (C1-C7)
 
-![Capacitor Installation](assembly-images/01-pcb-assembly/04-capacitor-installation.png)
+![Capacitor Installation](images/01-pcb-assembly/04-capacitor-installation.png)
 
 1. **C1, C2 (10µF)**:
    - Locate C1 and C2 positions
@@ -224,7 +224,7 @@ Before beginning assembly, verify you have all required components:
 
 #### 3.1 Install Voltage Regulator (U4 - ADP150)
 
-![Voltage Regulator Installation](assembly-images/01-pcb-assembly/05-voltage-regulator-installation.png)
+![Voltage Regulator Installation](images/01-pcb-assembly/05-voltage-regulator-installation.png)
 
 1. **Identify Pin 1**:
    - Locate pin 1 indicator on IC (usually a dot or notch)
@@ -248,7 +248,7 @@ Before beginning assembly, verify you have all required components:
 
 #### 3.2 Install Battery Charge Controller (U3 - MCP73832)
 
-![Charge Controller Installation](assembly-images/01-pcb-assembly/06-charge-controller-installation.png)
+![Charge Controller Installation](images/01-pcb-assembly/06-charge-controller-installation.png)
 
 1. Follow same process as U4
 2. **Critical**: Ensure correct orientation (pin 1 to pin 1)
@@ -275,7 +275,7 @@ Before beginning assembly, verify you have all required components:
 
 ⚠️ **CRITICAL STEP**: This is the most important component. Take extra care.
 
-![Microcontroller Overview](assembly-images/01-pcb-assembly/07-microcontroller-overview.png)
+![Microcontroller Overview](images/01-pcb-assembly/07-microcontroller-overview.png)
 
 1. **Preparation**:
    - Verify microcontroller part number matches BOM
@@ -286,7 +286,7 @@ Before beginning assembly, verify you have all required components:
    - Locate pin 1 indicator on IC (usually a dot in corner)
    - Match with pin 1 indicator on PCB (usually a square pad or dot)
 
-![Pin 1 Alignment](assembly-images/01-pcb-assembly/08-microcontroller-pin1-alignment.png)
+![Pin 1 Alignment](images/01-pcb-assembly/08-microcontroller-pin1-alignment.png)
 
 3. **Placement**:
    - For QFN-48 package, alignment is critical
@@ -308,7 +308,7 @@ Before beginning assembly, verify you have all required components:
      - Use solder wick to remove excess and bridges
      - Check each pin for proper connection
 
-![Soldering Methods](assembly-images/01-pcb-assembly/09-microcontroller-soldering-methods.png)
+![Soldering Methods](images/01-pcb-assembly/09-microcontroller-soldering-methods.png)
 
 5. **Verification**:
    - Inspect all pins under magnification
@@ -316,11 +316,11 @@ Before beginning assembly, verify you have all required components:
    - Verify no cold solder joints
    - Test continuity between adjacent pins (should be open circuit)
 
-![Microcontroller Verification](assembly-images/01-pcb-assembly/10-microcontroller-verification.png)
+![Microcontroller Verification](images/01-pcb-assembly/10-microcontroller-verification.png)
 
 ### Step 5: Install Air Quality Sensor (U2 - SGP40)
 
-![Sensor Installation](assembly-images/01-pcb-assembly/11-sensor-installation.png)
+![Sensor Installation](images/01-pcb-assembly/11-sensor-installation.png)
 
 1. **Sensor Orientation**:
    - SGP40 has air sampling vents on top
@@ -348,7 +348,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 6: Install RGB LEDs (LED1-LED4)
 
-![LED Installation Overview](assembly-images/01-pcb-assembly/12-led-installation-overview.png)
+![LED Installation Overview](images/01-pcb-assembly/12-led-installation-overview.png)
 
 1. **LED Identification**:
    - EAST1616RGBA1 LEDs have 4 pins (R, G, B, Common Anode)
@@ -361,7 +361,7 @@ Before beginning assembly, verify you have all required components:
    - Solder all 4 pins
    - **IMPORTANT**: LEDs are directional - incorrect orientation will prevent operation
 
-![LED Installation Detail](assembly-images/01-pcb-assembly/13-led-installation-detail.png)
+![LED Installation Detail](images/01-pcb-assembly/13-led-installation-detail.png)
 
 3. **LED Placement**:
    - LEDs should be positioned to maximize visibility through teardrop enclosure openings
@@ -375,7 +375,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 7: Install Piezoelectric Buzzer (BZ1)
 
-![Buzzer Installation](assembly-images/01-pcb-assembly/14-buzzer-installation.png)
+![Buzzer Installation](images/01-pcb-assembly/14-buzzer-installation.png)
 
 1. **Buzzer Orientation**:
    - Piezoelectric buzzers are polarized
@@ -413,7 +413,7 @@ Before beginning assembly, verify you have all required components:
 
 #### 9.1 USB Type-C Connector (J1)
 
-![USB-C Connector Installation](assembly-images/01-pcb-assembly/15-usbc-connector-installation.png)
+![USB-C Connector Installation](images/01-pcb-assembly/15-usbc-connector-installation.png)
 
 1. **Connector Orientation**:
    - USB-C connectors have specific mounting orientation
@@ -432,7 +432,7 @@ Before beginning assembly, verify you have all required components:
 
 #### 9.2 Battery Connector (J2)
 
-![Battery Connector Installation](assembly-images/01-pcb-assembly/16-battery-connector-installation.png)
+![Battery Connector Installation](images/01-pcb-assembly/16-battery-connector-installation.png)
 
 1. **Connector Type**:
    - JST PH 2-pin connector
@@ -448,7 +448,7 @@ Before beginning assembly, verify you have all required components:
 
 #### 9.3 SWD Programming Header (P1)
 
-![Programming Header Installation](assembly-images/01-pcb-assembly/17-programming-header-installation.png)
+![Programming Header Installation](images/01-pcb-assembly/17-programming-header-installation.png)
 
 1. **Header Installation**:
    - 4-pin header for ST-Link programming
@@ -466,9 +466,9 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 10: PCB Assembly Verification
 
-![Complete PCB Top View](assembly-images/01-pcb-assembly/18-complete-pcb-top-view.png)
+![Complete PCB Top View](images/01-pcb-assembly/18-complete-pcb-top-view.png)
 
-![Complete PCB Bottom View](assembly-images/01-pcb-assembly/19-complete-pcb-bottom-view.png)
+![Complete PCB Bottom View](images/01-pcb-assembly/19-complete-pcb-bottom-view.png)
 
 1. **Visual Inspection**:
    - Check all components are installed
@@ -489,7 +489,7 @@ Before beginning assembly, verify you have all required components:
    - Confirm LEDs are correctly placed
    - Verify sensor is properly mounted
 
-![PCB Verification Checklist](assembly-images/01-pcb-assembly/20-pcb-verification-checklist.png)
+![PCB Verification Checklist](images/01-pcb-assembly/20-pcb-verification-checklist.png)
 
 ---
 
@@ -499,7 +499,7 @@ Before beginning assembly, verify you have all required components:
 
 ⚠️ **BATTERY SAFETY**: Handle battery with care. Never short-circuit terminals.
 
-![Battery Mounting](assembly-images/02-component-installation/22-battery-mounting.png)
+![Battery Mounting](images/02-component-installation/22-battery-mounting.png)
 
 1. **Battery Preparation**:
    - Verify battery specifications match BOM (3.7V, 200mAh minimum)
@@ -518,7 +518,7 @@ Before beginning assembly, verify you have all required components:
    - Red wire = Positive (+)
    - Black wire = Negative (-)
 
-![Battery Connection Detail](assembly-images/02-component-installation/23-battery-connection-detail.png)
+![Battery Connection Detail](images/02-component-installation/23-battery-connection-detail.png)
 
 **Verification**: 
 - Battery fits securely in teardrop enclosure
@@ -531,7 +531,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 12: Prepare Teardrop Enclosure Parts
 
-![Enclosure Parts Overview - Teardrop](assembly-images/03-enclosure-assembly/31-enclosure-parts-overview-teardrop.png)
+![Enclosure Parts Overview - Teardrop](images/03-enclosure-assembly/31-enclosure-parts-overview-teardrop.png)
 
 1. **Inspect 3D Printed Teardrop Parts**:
    - Check top and bottom teardrop halves for defects
@@ -543,7 +543,7 @@ Before beginning assembly, verify you have all required components:
    - Check attachment loop at top center
    - Lightly sand any rough surfaces, especially curved areas
 
-![Enclosure Preparation - Teardrop](assembly-images/03-enclosure-assembly/32-enclosure-preparation-teardrop.png)
+![Enclosure Preparation - Teardrop](images/03-enclosure-assembly/32-enclosure-preparation-teardrop.png)
 
 2. **Test Fit Circular PCB in Teardrop Enclosure**:
    - Place circular PCB (32.5mm diameter) in bottom teardrop enclosure
@@ -556,7 +556,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 13: Install PCB into Teardrop Enclosure
 
-![PCB Placement - Teardrop](assembly-images/03-enclosure-assembly/33-pcb-placement-teardrop.png)
+![PCB Placement - Teardrop](images/03-enclosure-assembly/33-pcb-placement-teardrop.png)
 
 1. **Place PCB**:
    - Position circular PCB in bottom teardrop enclosure half
@@ -570,14 +570,14 @@ Before beginning assembly, verify you have all required components:
    - Place M1.6 spacers on mounting posts
    - Spacers provide clearance between PCB and teardrop enclosure
 
-![Spacer Installation - Teardrop](assembly-images/03-enclosure-assembly/34-spacer-installation-teardrop.png)
+![Spacer Installation - Teardrop](images/03-enclosure-assembly/34-spacer-installation-teardrop.png)
 
 3. **Secure PCB**:
    - Use M1.6x4 screws to secure PCB
    - Tighten screws gently - do not overtighten (may crack 3D printed parts)
    - Verify PCB is secure but not stressed
 
-![PCB Securing - Teardrop](assembly-images/03-enclosure-assembly/35-pcb-securing-teardrop.png)
+![PCB Securing - Teardrop](images/03-enclosure-assembly/35-pcb-securing-teardrop.png)
 
 **Verification**: 
 - PCB is securely mounted within teardrop enclosure
@@ -589,7 +589,7 @@ Before beginning assembly, verify you have all required components:
 
 ⚠️ **FINAL CHECK BEFORE CONNECTING**:
 
-![Pre-Connection Verification - Teardrop](assembly-images/03-enclosure-assembly/36-pre-connection-verification-teardrop.png)
+![Pre-Connection Verification - Teardrop](images/03-enclosure-assembly/36-pre-connection-verification-teardrop.png)
 - [ ] All components verified
 - [ ] No short circuits detected
 - [ ] Battery polarity confirmed
@@ -601,7 +601,7 @@ Before beginning assembly, verify you have all required components:
    - Gently push connectors together
    - Listen for click indicating secure connection
 
-![Battery Connection Final - Teardrop](assembly-images/03-enclosure-assembly/37-battery-connection-final-teardrop.png)
+![Battery Connection Final - Teardrop](images/03-enclosure-assembly/37-battery-connection-final-teardrop.png)
 
 2. **Initial Power Test**:
    - Device should power on (if firmware is loaded)
@@ -628,14 +628,14 @@ Before beginning assembly, verify you have all required components:
    - Verify side slots align
    - Ensure sensor vents align
 
-![Enclosure Closure Alignment - Teardrop](assembly-images/03-enclosure-assembly/38-enclosure-closure-alignment-teardrop.png)
+![Enclosure Closure Alignment - Teardrop](images/03-enclosure-assembly/38-enclosure-closure-alignment-teardrop.png)
 
 3. **Secure Enclosure**:
    - Use remaining M1.6x4 screws
    - Tighten evenly in cross pattern
    - Do not over-tighten - may crack 3D printed teardrop parts
 
-![Enclosure Closure Securing - Teardrop](assembly-images/03-enclosure-assembly/39-enclosure-closure-securing-teardrop.png)
+![Enclosure Closure Securing - Teardrop](images/03-enclosure-assembly/39-enclosure-closure-securing-teardrop.png)
 
 4. **Final Check**:
    - Verify teardrop enclosure is secure
@@ -645,7 +645,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 16: Attach Necklace Chain
 
-![Chain Attachment - Teardrop](assembly-images/03-enclosure-assembly/310-chain-attachment-teardrop.png)
+![Chain Attachment - Teardrop](images/03-enclosure-assembly/310-chain-attachment-teardrop.png)
 
 1. **Chain Attachment**:
    - Thread chain through attachment loop at top of teardrop pendant (wider end)
@@ -658,7 +658,7 @@ Before beginning assembly, verify you have all required components:
    - Ensure device is comfortable to wear
    - Verify teardrop shape is aesthetically pleasing
 
-![Complete Assembly External - Teardrop](assembly-images/03-enclosure-assembly/311-complete-assembly-external-teardrop.png)
+![Complete Assembly External - Teardrop](images/03-enclosure-assembly/311-complete-assembly-external-teardrop.png)
 
 ---
 
@@ -666,7 +666,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 17: Power-On Test
 
-![Power-On Test Setup - Teardrop](assembly-images/04-testing/41-power-on-test-setup-teardrop.png)
+![Power-On Test Setup - Teardrop](images/04-testing/41-power-on-test-setup-teardrop.png)
 
 1. **Initial Power Test**:
    - Connect USB-C cable to charger
@@ -683,7 +683,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 18: Firmware Upload
 
-![ST-Link Connection - Teardrop](assembly-images/04-testing/42-stlink-connection-teardrop.png)
+![ST-Link Connection - Teardrop](images/04-testing/42-stlink-connection-teardrop.png)
 
 1. **Connect ST-Link**:
    - Connect ST-Link V2 to SWD header (P1)
@@ -700,7 +700,7 @@ Before beginning assembly, verify you have all required components:
    - Upload firmware
    - Verify successful upload
 
-![Firmware Upload - Teardrop](assembly-images/04-testing/43-firmware-upload-teardrop.png)
+![Firmware Upload - Teardrop](images/04-testing/43-firmware-upload-teardrop.png)
 
 3. **Disconnect ST-Link**:
    - Safely disconnect programming cable
@@ -716,7 +716,7 @@ Before beginning assembly, verify you have all required components:
    - Test by exposing sensor to different air conditions
    - Verify LEDs are visible through teardrop enclosure openings
 
-![LED Color Test - Teardrop](assembly-images/04-testing/44-led-color-test-teardrop.png)
+![LED Color Test - Teardrop](images/04-testing/44-led-color-test-teardrop.png)
 
 2. **Sensor Test**:
    - Wave hand near sensor (should detect changes)
@@ -724,7 +724,7 @@ Before beginning assembly, verify you have all required components:
    - Verify sensor responds to air quality changes
    - Ensure sensor vents in teardrop enclosure allow proper air flow
 
-![Sensor Response Test - Teardrop](assembly-images/04-testing/45-sensor-response-test-teardrop.png)
+![Sensor Response Test - Teardrop](images/04-testing/45-sensor-response-test-teardrop.png)
 
 3. **Audio Test**:
    - Verify buzzer sounds for alerts
@@ -732,21 +732,21 @@ Before beginning assembly, verify you have all required components:
    - Check volume is appropriate
    - Ensure sound escapes through teardrop enclosure
 
-![Audio Test - Teardrop](assembly-images/04-testing/46-audio-test-teardrop.png)
+![Audio Test - Teardrop](images/04-testing/46-audio-test-teardrop.png)
 
 4. **Battery Test**:
    - Charge battery fully
    - Monitor battery life over time
    - Verify 16+ hour operation
 
-![Battery Life Test - Teardrop](assembly-images/04-testing/47-battery-life-test-teardrop.png)
+![Battery Life Test - Teardrop](images/04-testing/47-battery-life-test-teardrop.png)
 
 5. **Charging Test**:
    - Connect USB-C charger through side opening
    - Verify charging indicator
    - Test charging completes successfully
 
-![Charging Test - Teardrop](assembly-images/04-testing/48-charging-test-teardrop.png)
+![Charging Test - Teardrop](images/04-testing/48-charging-test-teardrop.png)
 
 ### Step 20: Calibration (if required)
 
@@ -769,7 +769,7 @@ Before beginning assembly, verify you have all required components:
 
 **Symptoms**: No LEDs, no response when USB connected
 
-![Short Circuit Detection - Teardrop](assembly-images/05-troubleshooting/51-short-circuit-detection-teardrop.png)
+![Short Circuit Detection - Teardrop](images/05-troubleshooting/51-short-circuit-detection-teardrop.png)
 
 **Possible Causes**:
 - Battery not connected or incorrectly connected
@@ -786,7 +786,7 @@ Before beginning assembly, verify you have all required components:
 
 **Symptoms**: Device powers on but LEDs remain off
 
-![LED Not Working - Teardrop](assembly-images/05-troubleshooting/58-led-not-working-teardrop.png)
+![LED Not Working - Teardrop](images/05-troubleshooting/58-led-not-working-teardrop.png)
 
 **Possible Causes**:
 - LEDs installed with incorrect polarity
@@ -801,13 +801,13 @@ Before beginning assembly, verify you have all required components:
 4. Verify firmware is correctly uploaded
 5. Check that LEDs align with teardrop enclosure openings
 
-![Orientation Errors - Teardrop](assembly-images/05-troubleshooting/52-orientation-errors-teardrop.png)
+![Orientation Errors - Teardrop](images/05-troubleshooting/52-orientation-errors-teardrop.png)
 
 #### Issue 3: Sensor Not Responding
 
 **Symptoms**: LEDs show same color regardless of air quality
 
-![Sensor Vent Blockage - Teardrop](assembly-images/05-troubleshooting/55-sensor-vent-blockage-teardrop.png)
+![Sensor Vent Blockage - Teardrop](images/05-troubleshooting/55-sensor-vent-blockage-teardrop.png)
 
 **Possible Causes**:
 - Sensor not properly connected
@@ -826,7 +826,7 @@ Before beginning assembly, verify you have all required components:
 
 **Symptoms**: Device works but battery does not charge via USB
 
-![USB-C Connection Issues - Teardrop](assembly-images/05-troubleshooting/56-usbc-connection-issues-teardrop.png)
+![USB-C Connection Issues - Teardrop](images/05-troubleshooting/56-usbc-connection-issues-teardrop.png)
 
 **Possible Causes**:
 - USB-C connector not properly installed
@@ -841,7 +841,7 @@ Before beginning assembly, verify you have all required components:
 4. Verify USB-C connector aligns with teardrop enclosure side opening
 5. Verify battery protection circuit is functioning
 
-![Battery Connection Problems - Teardrop](assembly-images/05-troubleshooting/57-battery-connection-problems-teardrop.png)
+![Battery Connection Problems - Teardrop](images/05-troubleshooting/57-battery-connection-problems-teardrop.png)
 
 #### Issue 5: Device Overheats
 
