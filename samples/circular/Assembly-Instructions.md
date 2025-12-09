@@ -647,7 +647,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 17: Power-On Test
 
-![Power-On Test Setup](images/04-testing/circular-original/41-power-on-test-setup.png)
+![Power-On Test Setup](images/04-testing/41-power-on-test-setup.png)
 
 1. **Initial Power Test**:
    - Connect USB-C cable to charger
@@ -664,7 +664,7 @@ Before beginning assembly, verify you have all required components:
 
 ### Step 18: Firmware Upload
 
-![ST-Link Connection](images/04-testing/circular-original/42-stlink-connection.png)
+![ST-Link Connection](images/04-testing/42-stlink-connection.png)
 
 1. **Connect ST-Link**:
    - Connect ST-Link V2 to SWD header (P1)
@@ -681,7 +681,7 @@ Before beginning assembly, verify you have all required components:
    - Upload firmware
    - Verify successful upload
 
-![Firmware Upload](images/04-testing/circular-original/43-firmware-upload.png)
+![Firmware Upload](images/04-testing/43-firmware-upload.png)
 
 3. **Disconnect ST-Link**:
    - Safely disconnect programming cable
@@ -696,35 +696,35 @@ Before beginning assembly, verify you have all required components:
    - Red = Poor air (TVOC 301-500)
    - Test by exposing sensor to different air conditions
 
-![LED Color Test](images/04-testing/circular-original/44-led-color-test.png)
+![LED Color Test](images/04-testing/44-led-color-test.png)
 
 2. **Sensor Test**:
    - Wave hand near sensor (should detect changes)
    - Test in different environments (indoor, outdoor)
    - Verify sensor responds to air quality changes
 
-![Sensor Response Test](images/04-testing/circular-original/45-sensor-response-test.png)
+![Sensor Response Test](images/04-testing/45-sensor-response-test.png)
 
 3. **Audio Test**:
    - Verify buzzer sounds for alerts
    - Test different alert tones
    - Check volume is appropriate
 
-![Audio Test](images/04-testing/circular-original/46-audio-test.png)
+![Audio Test](images/04-testing/46-audio-test.png)
 
 4. **Battery Test**:
    - Charge battery fully
    - Monitor battery life over time
    - Verify 16+ hour operation
 
-![Battery Life Test](images/04-testing/circular-original/47-battery-life-test.png)
+![Battery Life Test](images/04-testing/47-battery-life-test.png)
 
 5. **Charging Test**:
    - Connect USB-C charger
    - Verify charging indicator
    - Test charging completes successfully
 
-![Charging Test](images/04-testing/circular-original/48-charging-test.png)
+![Charging Test](images/04-testing/48-charging-test.png)
 
 ### Step 20: Calibration (if required)
 
@@ -747,7 +747,7 @@ Before beginning assembly, verify you have all required components:
 
 **Symptoms**: No LEDs, no response when USB connected
 
-![Short Circuit Detection](images/05-troubleshooting/circular-original/51-short-circuit-detection.png)
+![Short Circuit Detection](images/05-troubleshooting/51-short-circuit-detection.png)
 
 **Possible Causes**:
 - Battery not connected or incorrectly connected
@@ -764,7 +764,7 @@ Before beginning assembly, verify you have all required components:
 
 **Symptoms**: Device powers on but LEDs remain off
 
-![LED Not Working](images/05-troubleshooting/circular-original/58-led-not-working.png)
+![LED Not Working](images/05-troubleshooting/58-led-not-working.png)
 
 **Possible Causes**:
 - LEDs installed with incorrect polarity
@@ -777,13 +777,13 @@ Before beginning assembly, verify you have all required components:
 3. Test LEDs individually with multimeter
 4. Verify firmware is correctly uploaded
 
-![Orientation Errors](images/05-troubleshooting/circular-original/52-orientation-errors.png)
+![Orientation Errors](images/05-troubleshooting/52-orientation-errors.png)
 
 #### Issue 3: Sensor Not Responding
 
 **Symptoms**: LEDs show same color regardless of air quality
 
-![Sensor Vent Blockage](images/05-troubleshooting/circular-original/55-sensor-vent-blockage.png)
+![Sensor Vent Blockage](images/05-troubleshooting/55-sensor-vent-blockage.png)
 
 **Possible Causes**:
 - Sensor not properly connected
@@ -800,7 +800,7 @@ Before beginning assembly, verify you have all required components:
 
 **Symptoms**: Device works but battery does not charge via USB
 
-![USB-C Connection Issues](images/05-troubleshooting/circular-original/56-usbc-connection-issues.png)
+![USB-C Connection Issues](images/05-troubleshooting/56-usbc-connection-issues.png)
 
 **Possible Causes**:
 - USB-C connector not properly installed
@@ -813,7 +813,7 @@ Before beginning assembly, verify you have all required components:
 3. Test USB-C connection with multimeter
 4. Verify battery protection circuit is functioning
 
-![Battery Connection Problems](images/05-troubleshooting/circular-original/57-battery-connection-problems.png)
+![Battery Connection Problems](images/05-troubleshooting/57-battery-connection-problems.png)
 
 #### Issue 5: Device Overheats
 
